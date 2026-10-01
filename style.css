@@ -364,3 +364,7 @@ footer p {
     }
 
 }
+.navbar.scrolled {
+    background: #0a0a0a;
+    border-bottom: 1px solid #333;
+}
