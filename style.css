@@ -31,25 +31,23 @@ a {
 
     padding: 24px 7%;
 
-    background: rgba(10,10,10,0.8);
+    background: rgba(10, 10, 10, 0.8);
     backdrop-filter: blur(12px);
 
-    border-bottom: 1px solod #1c1c1c;
-
+    border-bottom: 1px solid #1c1c1c;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: -1px;
-
 }
 
 .navbar nav {
     display: flex;
     gap: 28px;
-
 }
+
 .navbar nav a {
     color: #888;
     font-size: 14px;
@@ -69,15 +67,13 @@ a {
 
     padding: 100px 7%;
 
-    background: 
+    background:
         radial-gradient(
             circle at 70% 30%,
-            rgba(255,255,255,0.08)
+            rgba(255,255,255,0.08),
             transparent 30%
         );
 }
-
-
 
 .hero-label {
     color: #777;
@@ -88,8 +84,10 @@ a {
 .hero h1 {
     max-width: 900px;
 
-    font-size: clamp(50px,8vw,110px);
-    line-height: -5px;
+    font-size: clamp(50px, 8vw, 110px);
+    line-height: 0.95;
+
+    letter-spacing: -5px;
 }
 
 .hero h1 span {
@@ -98,9 +96,10 @@ a {
 
 .hero-text {
     max-width: 550px;
+
     margin-top: 32px;
 
-    color:#999;
+    color: #999;
     font-size: 18px;
 }
 
@@ -114,18 +113,254 @@ a {
 
 .button {
     padding: 13px 20px;
+
     border: 1px solid #333;
+    border-radius: 999px;
+
+    font-size: 14px;
+
+    transition: 0.2s;
+}
+
+.button:hover {
     border-color: #777;
-    transform:translateY(-2px);
+    transform: translateY(-2px);
 }
 
 .button.primary {
     background: white;
-    color:black;
-    border-inline-color: white;
+    color: black;
+    border-color: white;
 }
 
-.section{
+
+.section {
     padding: 120px 7%;
-    border 
+    border-top: 1px solid #1c1c1c;
+}
+
+.section-header {
+    margin-bottom: 60px;
+}
+
+.section-label {
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section h2 {
+    font-size: clamp(38px, 6vw, 70px);
+    letter-spacing: -3px;
+}
+
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.project-card {
+    position: relative;
+
+    min-height: 300px;
+
+    padding: 32px;
+
+    border: 1px solid #222;
+    border-radius: 18px;
+
+    background: #0e0e0e;
+
+    transition: 0.25s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #444;
+}
+
+.project-number {
+    color: #555;
+    font-size: 13px;
+    margin-bottom: 70px;
+}
+
+.project-card h3 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    max-width: 500px;
+    color: #888;
+}
+
+.tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+
+    margin-top: 25px;
+}
+
+.tags span {
+    padding: 6px 10px;
+
+    border: 1px solid #292929;
+    border-radius: 999px;
+
+    color: #777;
+    font-size: 12px;
+}
+
+
+.timeline {
+    max-width: 850px;
+}
+
+.timeline-item {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 30px;
+
+    padding: 35px 0;
+
+    border-top: 1px solid #222;
+}
+
+.timeline-item > span {
+    color: #555;
+}
+
+.timeline-item h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.timeline-item p {
+    color: #888;
+}
+
+
+.youtube-section {
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.large-text {
+    max-width: 700px;
+
+    color: #aaa;
+    font-size: clamp(25px, 4vw, 45px);
+    line-height: 1.2;
+}
+
+.youtube-link {
+    display: inline-block;
+
+    margin-top: 35px;
+
+    width: fit-content;
+
+    padding: 14px 22px;
+
+    border: 1px solid #333;
+    border-radius: 999px;
+
+    transition: 0.2s;
+}
+
+.youtube-link:hover {
+    background: white;
+    color: black;
+}
+
+.about {
+    max-width: 1200px;
+}
+
+.about-text {
+    max-width: 750px;
+
+    margin-bottom: 20px;
+
+    color: #999;
+    font-size: 22px;
+}
+
+
+footer {
+    padding: 60px 7%;
+
+    border-top: 1px solid #1c1c1c;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    color: #666;
+}
+
+.footer-logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+footer p {
+    font-size: 13px;
+}
+
+@media (max-width: 700px) {
+
+    .navbar {
+        padding: 20px;
+    }
+
+    .navbar nav {
+        display: none;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .hero h1 {
+        letter-spacing: -3px;
+    }
+
+    .section {
+        padding: 80px 20px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card {
+        min-height: 270px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
 }
