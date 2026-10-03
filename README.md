@@ -12,9 +12,9 @@
 ## Build with
  HTML, CSS and JavaScript.
 ## What I want to improve 
- I improve my HTML, CSS and JavaScript skill. I also want to understand errors better and become more indepentdent when fixing problems in my code.
-## AI disсlosure 
- I do this my vires own site alone but when I don't understand where error and of what error and I need AI for error and all website work. I realized that you can't just leave simple characters like `,`, `.`, `;`, or `:` lying around, because errors might occur—and then you’d have to dig through the code to find and fix the mistake. I did not use AI to make the whole project for me.
+ I want to improve my HTML, CSS and JavaScript skills. I also want to understand errors better and become more independent when fixing problems in my code.
+## AI disclosure 
+ I build the vires website myself. I also want to understand error or couldn't find where the problem was. AI helped me find some errors and explain why they happened. I did not use AI to make the whole project for me.
 ## How to run
  1. Download or clone this repository.
  2. Open the project folder.
