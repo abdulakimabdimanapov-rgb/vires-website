@@ -14,8 +14,7 @@
 ## What I want to improve 
  I improve my HTML, CSS and JavaScript skill. I also want to understand errors better and become more indepent when fixing problems in my code.
 ## AI dislosure 
- I do this my vires onw site alono but when I don't understand where error and of what error and I need AI for error and all website work. I realized that you can't just leave simple characters like `,`, `.`, `;`, or `:` lying around, because errors might occur—and then you’d have to dig through the code to find and fix the mistake.
-
+ I do this my vires onw site alono but when I don't understand where error and of what error and I need AI for error and all website work. I realized that you can't just leave simple characters like `,`, `.`, `;`, or `:` lying around, because errors might occur—and then you’d have to dig through the code to find and fix the mistake. I did not use AI to make the whole project for me.
 ## How to run
  1. Download or clone this repository.
  2. Open the project folder.
