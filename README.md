@@ -3,7 +3,7 @@
 ## What is this?
  This is my personal website made by me, vires.
 ## Why I made this?
- I didn't have my own website. I saw someone who made their own website their , and I thought, "Can I make something similar for myself?" So I decided to try, and I started building it.
+ I didn't have my own website. I saw someone who made their own website, and I thought, "Can I make something similar for myself?" So I decided to try, and I started building it.
 ## What I learned 
  I learned that even one small symbol in the wrong place can cause an error in the project.    Sometimes I didn't understand where the error was, so I used AI to help me find the problem and explain why it happened.
 ## Features
